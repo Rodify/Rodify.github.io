@@ -130,7 +130,7 @@ body{
 		margin-top: 5%;
 		display: flex;
 		font-weight: bold;
-		font-size: 11px;
+		font-size: 15px;
 		padding: 10px;
 		border: 2px solid grey;
 		border-radius: 5px;
@@ -139,13 +139,13 @@ body{
 	.container p{
 		position: absolute;
 		color: white;
-		margin-left:20%;
+		margin-left:30%;
 		margin-top: 0.5%;
 
 	}
 
 	.container audio{
-		width: 50px;
+		width: 100px;
 	}
 
 	#home_internacional{
