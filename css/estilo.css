@@ -1,0 +1,172 @@
+body{
+	background-color:  #053000 ;
+	margin: 0;
+}
+@media only screen and (min-width: 1000px) {
+	.titulo{
+		color: lime; position: absolute; margin-top: 0.5px; margin-left: 3%; font-weight: bold; font-size: 40px;
+	}
+
+	.header{
+		background-color: black;
+		padding: 20px;
+		display: flex;
+	}
+
+	.headerbox{
+		display: flex;
+		margin-left: 33%;
+	}
+
+	.header_block{
+		padding: 10px;
+		font-size: 20px;
+		border: 0.5px solid white;
+		border-radius: 5px;
+		margin-left: 3%;
+	}
+
+	.header_block a{
+		text-decoration: none;
+		color: white;
+	}
+
+	.header_block p{
+		text-align: center;
+		color: white;
+	}
+
+	.header_block:hover{
+		background-color: darkgreen;
+	}
+
+	.container{
+		margin-left: 2%;
+		margin-right: 5%;
+		margin-top: 5%;
+		display: flex;
+		font-weight: bold;
+		font-size: 20px;
+		padding: 10px;
+		border: 2px solid white;
+		border-radius: 5px;
+	}
+
+	.container p{
+		position: absolute;
+		color: white;
+		margin-left:26%;
+		margin-top: 0.5%;
+
+	}
+
+	#home_internacional{
+		padding: 20px;
+		background-color: yellow;
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-bottom: 10%;
+		margin-top: 5%;
+		font-size: 40px;
+		text-align: center;
+	}
+
+	#home_nacional{
+		padding: 20px;
+		background-color: #B8860B;
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-bottom: 10%;
+		font-size: 40px;
+		text-align: center;
+		margin-top: 5%;
+	}
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+	.titulo{
+		color: lime; position: absolute; margin-top: 0.5px; margin-left: 1%; font-weight: bold; font-size: 25px;
+	}
+
+	.header{
+		background-color: black;
+		padding: 10px;
+		display: flex;
+	}
+
+	.headerbox{
+		display: flex;
+		margin-left: 28%;
+	}
+
+	.header_block{
+		padding: 5px;
+		font-size: 12px;
+		border: 0.5px solid white;
+		border-radius: 5px;
+		margin-left: 5%;
+	}
+
+	.header_block a{
+		text-decoration: none;
+		color: white;
+	}
+
+	.header_block p{
+		text-align: center;
+		color: white;
+	}
+
+	.header_block:hover{
+		background-color: darkgreen;
+	}
+
+	.container{
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-top: 5%;
+		display: flex;
+		font-weight: bold;
+		font-size: 11px;
+		padding: 10px;
+		border: 2px solid grey;
+		border-radius: 5px;
+	}
+
+	.container p{
+		position: absolute;
+		color: white;
+		margin-left:20%;
+		margin-top: 0.5%;
+
+	}
+
+	.container audio{
+		width: 50px;
+	}
+
+	#home_internacional{
+		padding: 20px;
+		background-color: yellow;
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-bottom: 10%;
+		margin-top: 30%;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#home_nacional{
+		padding: 20px;
+		background-color: #B8860B;
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-bottom: 10%;
+		font-size: 20px;
+		text-align: center;
+		margin-top: 20%;
+	}
+}
